@@ -19,6 +19,13 @@
 			{
 				"navigationBarTitleText" : ""
 			}
+		},
+		{
+			"path" : "pages/me/me",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关于我"
+			}
 		}
 	],
 	/* 在这里对导航栏的样式进行修改 */
@@ -44,6 +51,13 @@
 				"pagePath": "pages/user/user",
 				"iconPath": "static/images/user.png",
 				"selectedIconPath": "static/images/user-h.png"
+			},
+			{
+				"text": "关于我",
+				"pagePath": "pages/me/me",
+				"iconPath": "static/images/me.png",
+				"selectedIconPath": "static/images/me-h.png"
+
 			}
 		]
 	}
