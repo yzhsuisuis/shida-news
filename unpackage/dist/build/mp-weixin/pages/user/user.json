@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "用户中心",
+  "usingComponents": {
+    "newsbox": "/components/newsbox/newsbox"
+  }
+}

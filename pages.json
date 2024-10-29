@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "师大新闻"
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户中心"
+			}
+		},
+		{
+			"path" : "pages/detail/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	/* 在这里对导航栏的样式进行修改 */
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "师大新闻",
+		"navigationBarBackgroundColor": "#00aeec",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color":"#666",
+		"selectedColor": "#31C27C",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-h.png"
+				
+			},{
+				"text": "个人",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user-h.png"
+			}
+		]
+	}
+}

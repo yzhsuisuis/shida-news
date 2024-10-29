@@ -1,0 +1,2 @@
+<view class="detail"><view class="title">{{detail.title}}</view><view class="info"><view class="auth">{{"编辑: "+detail.author}}</view><view class="time">{{"时间:"+detail.posttime}}</view></view><view class="content"><rich-text nodes="{{detail.content}}"></rich-text></view><view class="description">免责声明：本资料中引用腾讯新闻的案例仅供个人学习和研究之用，并不代表本平台立场。
+		我们尊重版权，如有侵权行为，请及时联系我们，我们将尽快删除相关内容。本平台不承担因使用这些内容而产生的任何法律责任。请用户自行判断信息的准确性和合法性。</view></view>
